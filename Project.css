@@ -120,7 +120,11 @@ a{
     color:rgb(14 183 244);
 }
 
-@media(max-width:600px){
+@media (min-width:373px) and (max-width:500px){
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
 
     .h1{
         padding-left: 6%;
@@ -132,7 +136,7 @@ a{
     }
     .plus{
         position: absolute;
-        left: 205px;
+        left: 175px;
         top: 14px;
     }
     .mainbox{
@@ -140,15 +144,16 @@ a{
         flex-flow: column;
         align-content: center;
         justify-content: center;
-        width: 129%;
+        width: 100%;
         z-index: 1;
         position: absolute;
-        left: -18px;
-        top: 149px;
+        left: -92px;
+        top: 160px;
+        height: 829px;
     }
     
     .box{
-        width: 51%;
+    width: 92%;
     }
     
     .box4{
@@ -219,13 +224,13 @@ a{
     font-size: 18px;
 }
 
-@media(max-width:600px){
+@media (min-width:373px) and (max-width:500px){
     .index2{
         position: absolute;
-        left: 102px;
-        width: 61%;
+        left: 31px;
+        width: 83%;
         height: 185px;
-        top: 242px;
+        top: 197px;
     }
     #c{
         width:91%;
@@ -356,11 +361,12 @@ a{
     top: 2px;
 }
 
-@media (max-width:600px) {
+@media (min-width:373px) and (max-width:500px) {
+
     .plus1{
         position: absolute;
-        left: 217px;
-        top: 14px;
+    left: 169px;
+    top: 15px;
     }
     .index3box{
         display: flex;
@@ -371,7 +377,7 @@ a{
         z-index: 1;
         position: absolute;
         left: 0px;
-        top: 143px;
+        top: 150px;
     }
     #box1{
         width: 78%;
@@ -381,15 +387,23 @@ a{
         left: -4px;
     }
     .back{
-        font-size: 12px;
-        left: -105px;
-        top: -35px;
+        font-size: 15px;
+    left: -105px;
+    top: -36px;
     }
     .backtext{
         position: relative;
         left: -107px;
         top: -35px;
     
+    }
+    .index3{
+        opacity: 0.7;
+        opacity: 0.7;
+        background-color: #F7F7F7;
+        margin: none;
+        width: 100%;
+        height: 2389px; 
     }
 }
 
